@@ -10,6 +10,7 @@ const loader = document.querySelector(".loader");
 const API_KEY = "56707604-ad589896bfb00ef829d73b529"; 
 const BASE_URL = "https://pixabay.com/api/";
 
+
 let lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
